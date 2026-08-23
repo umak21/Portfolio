@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Project-unrelated tool folders
+.qodo/
+.claude/
+files/
+
+# Vercel
+.vercel/
+
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+next-env.d.ts
+
+# Environment variables
+.env
+.env.local
+.env*

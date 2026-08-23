@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Page Not Found | Umar Kamara</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/jpeg" href="static">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        html, body { height: 100%; }
+        .not-found {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 24px;
+            background: var(--d900);
+        }
+        .nf-code {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(7rem, 20vw, 14rem);
+            line-height: 1;
+            color: var(--red);
+            text-shadow: 0 0 60px rgba(230,57,70,.35);
+            letter-spacing: .04em;
+            margin-bottom: 8px;
+        }
+        .nf-title {
+            font-size: clamp(1.3rem, 3vw, 1.8rem);
+            font-weight: 700;
+            color: var(--tx-hi);
+            margin-bottom: 12px;
+        }
+        .nf-sub {
+            font-size: 1rem;
+            color: var(--tx-lo);
+            max-width: 420px;
+            margin-bottom: 40px;
+            line-height: 1.7;
+        }
+        .nf-actions {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .nf-logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--tx-hi);
+            margin-bottom: 48px;
+            text-decoration: none;
+        }
+        .nf-logo img {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .nf-logo span { color: var(--red); }
+    </style>
+</head>
+<body>
+    <div class="not-found">
+        <a href="/" class="nf-logo">
+            <img src="static/Avatar.jpeg" alt="">
+            Umar_k
+        </a>
+
+        <p class="nf-code">404</p>
+        <h1 class="nf-title">Page Not Found</h1>
+        <p class="nf-sub">Looks like this page took a wrong turn. It may have been moved, deleted, or never existed.</p>
+
+        <div class="nf-actions">
+            <a href="/" class="btn btn-primary">
+                <i class="fas fa-house" aria-hidden="true"></i> Back to Home
+            </a>
+            <a href="/#contact-section" class="btn btn-outline">
+                <i class="fas fa-envelope" aria-hidden="true"></i> Contact Me
+            </a>
+        </div>
+    </div>
+</body>
+</html>
