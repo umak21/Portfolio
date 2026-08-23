@@ -704,7 +704,7 @@ export default function Home() {
                   <div className="project-header">
                     <span className="project-tag project-tag-ai">Security · SaaS</span>
                     <div className="project-links">
-                      <a href="https://github.com/umak21?tab=repositories&type=public" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                      <a href="https://github.com/umak21/DefendSL" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <i className="fab fa-github" aria-hidden="true" />
                       </a>
                     </div>
