@@ -45,8 +45,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   verification: { google: "GUldVF9Oyxs5h5a63i8PhhKKOhItdkYyZsOfC-R9_uM" },
   icons: {
-    icon: "/static/Skia.jpeg",
-    apple: "/static/Skia.jpeg",
+    icon: "/static/Avatar.jpg",
+    apple: "/static/Avatar.jpg",
   },
   openGraph: {
     type: "website",
