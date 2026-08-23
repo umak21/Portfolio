@@ -44,3 +44,4 @@ npm run lint    # lint the codebase
 
 ## Contact
 Reach out via the contact form on the site, or directly at umar21kamara@gmail.com.
+
