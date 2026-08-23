@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     description:
       "Full-stack developer and AI integration engineer based in Sierra Leone. Builds with React, Node.js, and the Anthropic SDK. Open for remote work.",
     url: siteUrl,
-    images: [{ url: "/static/profile.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/static/Avatar.jpg", width: 1200, height: 630 }],
     locale: "en_GB",
   },
   twitter: {
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: "Umar Kamara | Full-Stack Developer and AI Integration Engineer",
     description:
       "Full-stack developer and AI integration engineer based in Sierra Leone. Builds with React, Node.js, and the Anthropic SDK. Open for remote work.",
-    images: ["/static/profile.jpg"],
+    images: ["/static/Avatar.jpg"],
   },
 };
 
@@ -74,7 +74,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Umar Kamara",
   url: siteUrl,
-  image: `${siteUrl}/static/profile.jpg`,
+  image: `${siteUrl}/static/Avatar.jpg`,
   jobTitle: "Full-Stack Developer and AI Integration Engineer",
   description:
     "Full-stack developer and AI integration engineer based in Sierra Leone. Builds web applications with React and Node.js and integrates AI using the Anthropic SDK.",
