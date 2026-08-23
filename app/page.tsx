@@ -664,6 +664,37 @@ export default function Home() {
                 </div>
               </article>
 
+              {/* Portfolio */}
+              <article className="project-card">
+                <div className="project-gfx project-gfx-2">
+                  <i className="fas fa-code" aria-hidden="true" />
+                </div>
+                <div className="project-body">
+                  <div className="project-header">
+                    <span className="project-tag">Web · Portfolio</span>
+                    <div className="project-links">
+                      <a href="https://github.com/umak21/Portfolio" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i className="fab fa-github" aria-hidden="true" />
+                      </a>
+                    </div>
+                  </div>
+                  <h3>Portfolio</h3>
+                  <p>
+                    Personal developer portfolio built with Next.js 16 and React 19. Features animated sections,
+                    a rate-limited contact form with Cloudflare Turnstile CAPTCHA, Resend email delivery, and
+                    is fully deployed on Vercel.
+                  </p>
+                  <div className="project-stack">
+                    <span>Next.js</span>
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>Resend</span>
+                    <span>Cloudflare</span>
+                    <span>Vercel</span>
+                  </div>
+                </div>
+              </article>
+
               {/* DefendSL */}
               <article className="project-card">
                 <div className="project-gfx project-gfx-1">
