@@ -971,13 +971,13 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      <a href="https://t.me/Skia_Dev_001" target="_blank" rel="noopener noreferrer" className="c-method">
+                      <a href="https://t.me/umark_21" target="_blank" rel="noopener noreferrer" className="c-method">
                         <span className="c-icon">
                           <i className="fab fa-telegram" aria-hidden="true" />
                         </span>
                         <span>
                           <strong>Telegram</strong>
-                          <em>@Skia_Dev_001</em>
+                          <em>@umark_21</em>
                         </span>
                       </a>
                     </li>
