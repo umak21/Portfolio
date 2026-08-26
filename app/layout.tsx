@@ -93,6 +93,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang="en" className={`${bebasNeue.variable} ${poppins.variable}`}>
       <body>
+        {/* eslint-disable-next-line @next/next/no-css-tags */}
         <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
         <Script
           id="json-ld"

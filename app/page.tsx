@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import ScrollEffects from "@/components/ScrollEffects";
 import ContactForm from "@/components/ContactForm";
@@ -36,7 +37,7 @@ function TechStripRow({ hidden }: { hidden?: boolean }) {
     <div className="tech-strip-inner" aria-hidden={hidden ? "true" : undefined}>
       {TECH_STRIP.map((t) => (
         <span className="tech-item" key={t.slug}>
-          <img src={`https://cdn.simpleicons.org/${t.slug}/${t.color}`} alt={hidden ? "" : t.name} width={22} height={22} />
+          <Image src={`https://cdn.simpleicons.org/${t.slug}/${t.color}`} alt={hidden ? "" : t.name} width={22} height={22} unoptimized />
           <span>{t.name}</span>
         </span>
       ))}
@@ -158,7 +159,7 @@ export default function Home() {
             <div className="hero-visual" aria-hidden="true">
               <div className="avatar-glow" />
               <div className="avatar-ring" />
-              <img src="/static/Avatar.jpg" alt="Umar Kamara" className="hero-avatar" width={360} height={360} />
+              <Image src="/static/Avatar.jpg" alt="Umar Kamara" className="hero-avatar" width={360} height={360} />
             </div>
           </div>
 
@@ -236,7 +237,7 @@ export default function Home() {
             <div className="about-grid">
               <div className="about-image-col" data-animate="fade-right">
                 <div className="about-img-frame">
-                  <img src="/static/Avatar.jpg" alt="Umar Kamara" loading="lazy" width={440} height={520} />
+                  <Image src="/static/Avatar.jpg" alt="Umar Kamara" width={440} height={520} />
                 </div>
                 <div className="about-socials">
                   <a href="https://github.com/umak21?tab=repositories&type=public" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
@@ -845,7 +846,7 @@ export default function Home() {
             <div className="trust-badges-grid" data-animate="fade-up">
               <div className="trust-badge">
                 <div className="trust-badge-icon trust-badge-anthropic">
-                  <img src="https://cdn.simpleicons.org/anthropic/ffffff" alt="Anthropic" width={32} height={32} />
+                  <Image src="https://cdn.simpleicons.org/anthropic/ffffff" alt="Anthropic" width={32} height={32} unoptimized />
                 </div>
                 <div className="trust-badge-body">
                   <span className="trust-badge-issuer">Anthropic</span>
@@ -884,7 +885,7 @@ export default function Home() {
 
               <div className="trust-badge">
                 <div className="trust-badge-icon trust-badge-github">
-                  <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" width={32} height={32} />
+                  <Image src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" width={32} height={32} unoptimized />
                 </div>
                 <div className="trust-badge-body">
                   <span className="trust-badge-issuer">GitHub</span>
