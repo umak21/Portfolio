@@ -19,7 +19,7 @@ const poppins = Poppins({
   display: "swap",
 });
 
-const siteUrl = "https://salifukamara.com";
+const siteUrl = "https://umarkamara.com";
 const title = "Umar Kamara | Full-Stack Developer and AI Integration Engineer";
 const description =
   "Umar Kamara is a full-stack developer and AI integration engineer based in Sierra Leone. Builds web applications with React and Node.js and integrates AI using the Anthropic SDK. Open for remote work.";

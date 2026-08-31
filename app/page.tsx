@@ -159,7 +159,7 @@ export default function Home() {
             <div className="hero-visual" aria-hidden="true">
               <div className="avatar-glow" />
               <div className="avatar-ring" />
-              <Image src="/static/Avatar.jpg" alt="Umar Kamara" className="hero-avatar" width={360} height={360} />
+              <Image src="/static/Avatar.jpg" alt="Umar Kamara" className="hero-avatar" width={360} height={360} priority />
             </div>
           </div>
 
@@ -271,6 +271,12 @@ export default function Home() {
                   do real work from day one.
                 </p>
 
+                <p className="about-body">
+                  Alongside that, I run <strong>Matadi</strong>, my software venture for building AI-integrated
+                  and security-conscious products — the same full-stack and AI engineering skills behind projects
+                  like MakitIQ and DefendSL below.
+                </p>
+
                 <dl className="about-info-grid">
                   <div className="info-item">
                     <dt>
@@ -368,6 +374,24 @@ export default function Home() {
                     <span>Blue Team</span>
                     <span>Python</span>
                     <span>Flutter</span>
+                  </div>
+                </div>
+              </article>
+
+              <article className="timeline-item">
+                <div className="tl-year">Late 2025</div>
+                <div className="tl-dot" aria-hidden="true" />
+                <div className="tl-card">
+                  <h3>Founded Matadi</h3>
+                  <p>
+                    Launched Matadi, a software venture for building AI-integrated and security-conscious
+                    products — drawing on the same full-stack and AI engineering skills that shipped MakitIQ
+                    and DefendSL.
+                  </p>
+                  <div className="tl-tags">
+                    <span>Matadi</span>
+                    <span>AI Integration</span>
+                    <span>Product</span>
                   </div>
                 </div>
               </article>

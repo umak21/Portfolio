@@ -81,7 +81,7 @@ export async function POST(req: NextRequest) {
 
   try {
     await getResend().emails.send({
-      from: "Umar Kamara Portfolio <hello@salifukamara.com>",
+      from: "Umar Kamara Portfolio <hello@umarkamara.com>",
       to: ["umar21kamara@gmail.com"],
       replyTo: email,
       subject: subject
