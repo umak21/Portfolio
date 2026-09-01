@@ -578,11 +578,6 @@ export default function Home() {
                 <div className="project-body">
                   <div className="project-header">
                     <span className="project-tag project-tag-ai">AI · SaaS</span>
-                    <div className="project-links">
-                      <a href="https://github.com/umak21?tab=repositories&type=public" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i className="fab fa-github" aria-hidden="true" />
-                      </a>
-                    </div>
                   </div>
                   <h3>MakitIQ</h3>
                   <p>
@@ -609,11 +604,6 @@ export default function Home() {
                 <div className="project-body">
                   <div className="project-header">
                     <span className="project-tag">Web · Academic</span>
-                    <div className="project-links">
-                      <a href="https://github.com/umak21?tab=repositories&type=public" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i className="fab fa-github" aria-hidden="true" />
-                      </a>
-                    </div>
                   </div>
                   <h3>ConnectSL</h3>
                   <p>
@@ -638,11 +628,6 @@ export default function Home() {
                 <div className="project-body">
                   <div className="project-header">
                     <span className="project-tag">Tool · Python</span>
-                    <div className="project-links">
-                      <a href="https://github.com/umak21?tab=repositories&type=public" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i className="fab fa-github" aria-hidden="true" />
-                      </a>
-                    </div>
                   </div>
                   <h3>AC Phasor Analyser</h3>
                   <p>
@@ -667,11 +652,6 @@ export default function Home() {
                 <div className="project-body">
                   <div className="project-header">
                     <span className="project-tag">Web · Healthcare</span>
-                    <div className="project-links">
-                      <a href="https://github.com/umak21?tab=repositories&type=public" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i className="fab fa-github" aria-hidden="true" />
-                      </a>
-                    </div>
                   </div>
                   <h3>Health Management</h3>
                   <p>
@@ -697,11 +677,6 @@ export default function Home() {
                 <div className="project-body">
                   <div className="project-header">
                     <span className="project-tag">Web · Portfolio</span>
-                    <div className="project-links">
-                      <a href="https://github.com/umak21/Portfolio" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i className="fab fa-github" aria-hidden="true" />
-                      </a>
-                    </div>
                   </div>
                   <h3>Portfolio</h3>
                   <p>
@@ -728,11 +703,6 @@ export default function Home() {
                 <div className="project-body">
                   <div className="project-header">
                     <span className="project-tag project-tag-ai">Security · SaaS</span>
-                    <div className="project-links">
-                      <a href="https://github.com/umak21/DefendSL" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i className="fab fa-github" aria-hidden="true" />
-                      </a>
-                    </div>
                   </div>
                   <h3>DefendSL</h3>
                   <p>
